@@ -1,0 +1,17 @@
+<application>
+  <component name="GoogleLoginApplicationSettings">
+    <option name="activeUser" value="pozdeev_max@mail.ru" />
+    <option name="userEmail2FeaturesStore">
+      <map>
+        <entry key="pozdeev_max@mail.ru">
+          <value>
+            <set>
+              <option value="Gemini" />
+              <option value="User Info" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,94 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "spacing": 6,
+
+    "modules-left": ["hyprland/workspaces", "temperature", "memory", "cpu"],
+    "modules-center": ["clock"],
+    "modules-right": ["group/stat"],
+
+    "group/stat": {
+        "orientation": "horizontal",
+        "modules": ["backlight", "network", "pulseaudio", "battery", "hyprland/language"]
+    },
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+	"format-icons": {
+		"1": "",
+		"2": "",
+		"3": "",
+		"4": "",
+		"5": "",
+		"active": "",
+		"default": "" 
+	},
+       "persistent-workspaces": {
+         "*": [ 2, 3, 4, 5 ]
+       }
+    },
+
+    "clock": {
+        "format": "{:%d.%m.%Y | %H:%M}"
+    },
+
+    "pulseaudio": {
+        "scroll-step": 5, // %, can be a float
+        "format": "{icon} {volume}%",
+        "format-muted": "MUTE",
+        "format-icons": {
+            "default": ["", "", ""]
+        },
+    },
+
+    "memory": {
+        "interval": 30,
+        "format": "\uf4bc {used:0.1f}G"
+    },
+
+    "temperature": {
+        "format": " {temperatureC}°C"
+    },
+
+    "network": {
+        "format": "",
+        "format-ethernet": "\udb83\udc9d ",
+        "format-wifi": "{icon} ",
+        "format-disconnected": "\udb83\udc9c ",
+        "format-icons": ["\udb82\udd2f", "\udb82\udd1f", "\udb82\udd22", "\udb82\udd25", "\udb82\udd28"],
+        "tooltip-format-wifi": "{essid} ({signalStrength}%)",
+        "tooltip-format-ethernet": "{ifname}",
+        "tooltip-format-disconnected": "Disconnected",
+    },
+
+    "cpu": {
+	"interval": 5,
+	"format": "CPU {usage:2}%"
+    },
+    "battery": {
+	"states": {
+	    "good": 95,
+	    "warning": 30,
+	    "critical": 15
+	},
+	"format": "{icon} {capacity}%",
+	"format-icons": [
+	    "","","","",""
+	]
+    },
+
+    "hyprland/language": {
+        "format": "{short}"
+    },
+
+    "tray": {
+        "icon-size": 16,
+        "spacing": 16
+    },
+    
+    "backlight": {
+        "format": "{icon} {percent}%",
+        "format-icons": ["\uf522"]
+    }
+}

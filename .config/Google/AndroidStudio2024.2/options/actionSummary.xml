@@ -1,0 +1,31 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$SelectAll">
+      <i c="1" l="1729264745091" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="25" l="1729265277090" />
+    </e>
+    <e n="EditorPreviousWord">
+      <i c="4" l="1729264766795" />
+    </e>
+    <e n="EditorPreviousWordWithSelection">
+      <i c="2" l="1729264769823" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="1" l="1729264730775" />
+    </e>
+    <e n="com.intellij.openapi.project.LightEditActionFactory$SimpleLightEditCompatibleAction">
+      <i c="1" l="1729265280492" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$5">
+      <i c="2" l="1729502783107" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="1" l="1729264793192" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="1" l="1729265308360" />
+    </e>
+  </component>
+</application>

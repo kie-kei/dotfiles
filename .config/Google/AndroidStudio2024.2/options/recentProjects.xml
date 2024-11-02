@@ -1,0 +1,26 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/AndroidStudioProjects/FreakVPN">
+          <value>
+            <RecentProjectMetaInfo frameTitle="MainActivity.kt [FreakVPN.app.main]" opened="true" projectWorkspaceId="2ncG6MOBwpCeH9tsvgIQWIPcNla">
+              <option name="activationTimestamp" value="1729267662225" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-242.23339.11.2421.12483815" />
+              <option name="buildTimestamp" value="1728590040000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="3" />
+              </option>
+              <frame x="22" y="58" width="931" height="1000" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1729264774998" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/AndroidStudioProjects/FreakVPN" />
+    <option name="lastProjectLocation" value="$USER_HOME$/AndroidStudioProjects" />
+  </component>
+</application>
